@@ -124,9 +124,9 @@ const Index = () => {
             <Camera className="h-12 w-12 text-primary mr-3" />
             <h1 className="text-4xl font-bold text-foreground">FoodSnap</h1>
           </div>
-          <p className="text-xl text-muted-foreground mb-4">
-            AI-Powered Calorie Tracker from Food Photos
-          </p>
+            <p className="text-xl text-muted-foreground mb-4">
+              AI-Powered Calorie Tracker from Food Photos 📸
+            </p>
           
           <Alert className="max-w-2xl mx-auto">
             <Info className="h-4 w-4" />
