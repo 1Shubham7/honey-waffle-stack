@@ -57,6 +57,13 @@ Be as accurate as possible with portion sizes and nutritional values. If you can
       });
 
       if (!response.ok) {
+        if (response.status === 429) {
+          throw new Error('Rate limit exceeded. Please wait a moment and try again, or check your OpenAI usage limits.');
+        } else if (response.status === 401) {
+          throw new Error('Invalid API key. Please check your OpenAI API key is correct.');
+        } else if (response.status === 402) {
+          throw new Error('Insufficient credits. Please add credits to your OpenAI account.');
+        }
         throw new Error(`OpenAI API error: ${response.status} ${response.statusText}`);
       }
 
