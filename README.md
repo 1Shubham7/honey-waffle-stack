@@ -1,6 +1,6 @@
-# FoodSnap: AI-Powered Calorie Tracker from Food Photos
+# CaloriTrack Image Recognition
 
-FoodSnap is a web application that uses AI to analyze photos of food and provide instant nutrition information, including calories, protein, carbs, and fat content. Just upload a photo of your meal and get an immediate breakdown of its nutritional values!
+CaloriTrack Image Recognition is a meal photo analysis feature for the main CaloriTrack project. It uses AI to analyze food images and estimate calories, protein, carbs, and fat so users can add photo-based nutrition insights to their regular calorie tracking flow.
 
 ## Demo
 
@@ -46,7 +46,7 @@ Try the live version: [Lovable Project](https://lovable.dev/projects/cc5c6c36-18
 
 You can also edit the code directly in GitHub or use GitHub Codespaces for cloud-based development.
 
-### Using FoodSnap
+### Using CaloriTrack Image Recognition
 
 1. Obtain an OpenAI API Key.
 2. Enter your API key into the app interface.

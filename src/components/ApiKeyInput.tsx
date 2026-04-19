@@ -25,13 +25,13 @@ export const ApiKeyInput: React.FC<ApiKeyInputProps> = ({ onApiKeySet, isLoading
   return (
     <Card className="max-w-md mx-auto">
       <CardHeader>
-        <CardTitle className="text-center">OpenAI API Key Required</CardTitle>
+        <CardTitle className="text-center">OpenAI API Key Required For CaloriTrack</CardTitle>
       </CardHeader>
       <CardContent>
         <Alert className="mb-4">
           <Info className="h-4 w-4" />
           <AlertDescription>
-            To analyze your food photos, we need your OpenAI API key. Your key is only used for this session and is not stored.
+            To use CaloriTrack image recognition, enter your OpenAI API key. Your key is only used for this session and is not stored.
           </AlertDescription>
         </Alert>
         

@@ -1,6 +1,7 @@
-# FoodSnap Local Setup
+# CaloriTrack Image Recognition Setup
 
 This document is for the `food-recorgnition/` subproject inside this repo.
+It is the image-recognition feature for CaloriTrack, not a separate standalone product.
 
 I verified the local setup on this machine on April 19, 2026:
 
@@ -163,4 +164,3 @@ Then:
 2. Paste your OpenAI API key
 3. Upload a food photo
 4. Click analyze
-

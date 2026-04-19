@@ -51,7 +51,7 @@ export const exportToCSV = (results: NutritionData[]) => {
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
-  link.download = `foodsnap-nutrition-${new Date().toISOString().split('T')[0]}.csv`;
+  link.download = `caloritrack-image-recognition-${new Date().toISOString().split('T')[0]}.csv`;
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -77,7 +77,7 @@ export const exportToPDF = (results: NutritionData[]) => {
     <!DOCTYPE html>
     <html>
     <head>
-        <title>FoodSnap Nutrition Report</title>
+        <title>CaloriTrack Image Recognition Report</title>
         <style>
             body { font-family: Arial, sans-serif; margin: 20px; }
             .header { text-align: center; margin-bottom: 30px; }
@@ -92,7 +92,7 @@ export const exportToPDF = (results: NutritionData[]) => {
     </head>
     <body>
         <div class="header">
-            <h1>FoodSnap Nutrition Report</h1>
+            <h1>CaloriTrack Image Recognition Report</h1>
             <p>Generated on ${new Date().toLocaleDateString()}</p>
         </div>
         

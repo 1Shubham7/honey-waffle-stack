@@ -21,7 +21,7 @@ const Index = () => {
     setApiKey(key);
     toast({
       title: "API Key Set",
-      description: "You can now upload and analyze your food photos!",
+      description: "You can now use CaloriTrack image recognition on your meal photos.",
     });
   };
 
@@ -99,13 +99,13 @@ const Index = () => {
           <div className="text-center mb-8">
             <div className="flex items-center justify-center mb-4">
               <Camera className="h-12 w-12 text-primary mr-3" />
-              <h1 className="text-4xl font-bold text-foreground">FoodSnap</h1>
+              <h1 className="text-4xl font-bold text-foreground">CaloriTrack Image Recognition</h1>
             </div>
             <p className="text-xl text-muted-foreground mb-2">
-              AI-Powered Calorie Tracker from Food Photos
+              Photo-based nutrition analysis inside CaloriTrack
             </p>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Upload photos of your meals and get instant nutrition analysis including calories, protein, carbs, and fat content.
+              Upload meal photos and estimate calories, protein, carbs, and fat as part of your CaloriTrack workflow.
             </p>
           </div>
           
@@ -122,16 +122,16 @@ const Index = () => {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center mb-4">
             <Camera className="h-12 w-12 text-primary mr-3" />
-            <h1 className="text-4xl font-bold text-foreground">FoodSnap</h1>
+            <h1 className="text-4xl font-bold text-foreground">CaloriTrack Image Recognition</h1>
           </div>
             <p className="text-xl text-muted-foreground mb-4">
-              AI-Powered Calorie Tracker from Food Photos 📸
+              Photo-based nutrition analysis for CaloriTrack 📸
             </p>
           
-          <Alert className="max-w-2xl mx-auto">
+            <Alert className="max-w-2xl mx-auto">
             <Info className="h-4 w-4" />
             <AlertDescription>
-              No data is saved between sessions. Your API key is only used for this session and is not stored anywhere.
+              No data is saved between sessions. Your API key is only used for this session while you use this CaloriTrack feature.
             </AlertDescription>
           </Alert>
         </div>
@@ -141,7 +141,7 @@ const Index = () => {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Camera className="h-5 w-5" />
-              Upload Food Photos
+              Upload Meal Photos
             </CardTitle>
           </CardHeader>
           <CardContent>
